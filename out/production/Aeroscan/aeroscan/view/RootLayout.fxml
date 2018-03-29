@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="rootLayout" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aeroscan.controller.RootLayout">
+   <left>
+      <AnchorPane maxWidth="168.0" minWidth="168.0" prefWidth="168.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane maxWidth="53.0" minWidth="53.0" prefWidth="53.0" style="-fx-background-color: #ffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="116.0" AnchorPane.topAnchor="0.0">
+               <effect>
+                  <DropShadow radius="6.0" width="5.0" />
+               </effect>
+            </Pane>
+            <VBox prefHeight="400.0" prefWidth="168.0" stylesheets="@../css/menu.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <AnchorPane prefHeight="119.0" prefWidth="167.0">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="50.0" layoutX="1.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/logo.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="29.0" fitWidth="103.0" layoutX="58.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/brand.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <Button fx:id="scansButton" alignment="BASELINE_LEFT" graphicTextGap="30.0" mnemonicParsing="false" onAction="#onScansClicked" prefHeight="42.0" prefWidth="229.0" text="Scans">
+                     <font>
+                        <Font name="Helvetica Neue" size="13.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="scansButtonImage" fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/map.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="algorithmsButton" alignment="BASELINE_LEFT" graphicTextGap="30.0" mnemonicParsing="false" onAction="#onAlgorithmsClicked" prefHeight="42.0" prefWidth="213.0" text="Algorithms">
+                     <font>
+                        <Font name="Helvetica Neue" size="13.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="algorithmsButtonImage" fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/algorithm.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="flightPlannerButton" alignment="BASELINE_LEFT" graphicTextGap="30.0" mnemonicParsing="false" onAction="#onFlightPlannerClicked" prefHeight="42.0" prefWidth="213.0" text="Flight Planner">
+                     <font>
+                        <Font name="Helvetica Neue" size="13.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="flightPlannerButtonImage" fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/flight.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="helpButton" alignment="BASELINE_LEFT" graphicTextGap="30.0" mnemonicParsing="false" onAction="#onHelpClicked" prefHeight="42.0" prefWidth="213.0" text="Help">
+                     <font>
+                        <Font name="Helvetica Neue" size="13.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fx:id="helpButtonImage" fitHeight="25.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/icons/help.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow radius="6.0" width="5.0" />
+         </effect>
+      </AnchorPane>
+   </left>
+</BorderPane>

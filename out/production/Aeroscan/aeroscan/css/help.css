@@ -1,0 +1,27 @@
+.text-area .scroll-bar:vertical .increment-arrow,
+.text-area .scroll-bar:vertical .decrement-arrow,
+.text-area .scroll-bar:vertical .increment-button,
+.text-area .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0px;
+}
+
+.text-area .scroll-bar:vertical {
+    -fx-scale-x: 0;
+    -fx-opacity: 0;
+    -fx-background-color: #ffff ;
+}
+
+.text-area .content{
+    -fx-background-color: #e7ebec;
+    -fx-background-insets: 30px, 10px ;
+    -fx-background-radius: 8px;
+    -fx-padding: 40px;
+    -fx-start-margin: 10px;
+    -fx-end-margin: 10px;
+}
+
+.text-area:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 5, 4, 3;
+}

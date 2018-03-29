@@ -1,0 +1,52 @@
+.listView .scroll-bar:vertical .increment-arrow,
+.listView .scroll-bar:vertical .decrement-arrow,
+.listView .scroll-bar:vertical .increment-button,
+.listView .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0px;
+}
+
+.listView .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #bdc3c7 ;
+    -fx-background-insets: 10px, 10px ;
+    -fx-background-radius: 8px;
+}
+
+.listCell-name {
+    -fx-font-weight: bold;
+}
+
+.listCell-icon {
+
+
+}
+
+.listCell-date {
+
+}
+
+.listView {
+    -fx-background-insets: 0 ;
+    -fx-padding: 0px;
+}
+
+.list-cell {
+    -fx-padding: 20px ;
+    -fx-background-color: #ecf0f1;
+    -fx-background-insets: 10px, 10px ;
+    -fx-background-radius: 8px;
+}
+
+.list-cell:empty {
+    -fx-padding: 2px ;
+    -fx-background-color: transparent ;
+    -fx-background-insets: 0 ;
+}
+
+.list-cell:filled {
+    -fx-background-color: #ecf0f1;
+;
+}

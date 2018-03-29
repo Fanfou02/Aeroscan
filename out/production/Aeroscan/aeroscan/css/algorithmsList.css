@@ -1,0 +1,66 @@
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding: 0px;
+}
+
+.list-view .scroll-bar:horizontal {
+    -fx-scale-x: 0;
+}
+
+.list-view .scroll-bar:vertical .increment-arrow,
+.list-view .scroll-bar:vertical .decrement-arrow,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-padding: 0px;
+}
+
+.list-view .scroll-bar:vertical {
+    -fx-scale-x: 0;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #bdc3c7 ;
+    -fx-background-insets: 20px, 10px ;
+    -fx-background-radius: 8px;
+}
+
+.listCell-description {
+
+}
+
+.listCell-icon {
+    -fx-fit-to-height: 256px;
+    -fx-fit-to-width: 256px;
+    -fx-padding: 10px;
+
+}
+
+.listCell-title {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.list-view {
+    -fx-background-insets: 0 ;
+    -fx-padding: 0px;
+}
+
+.list-cell {
+    -fx-padding: 15px ;
+    -fx-background-color: #ecf0f1;
+    -fx-background-insets: 15px, 10px ;
+    -fx-background-radius: 8px;
+}
+
+.list-cell:empty {
+    -fx-padding: 2px ;
+    -fx-background-color: transparent ;
+    -fx-background-insets: 0 ;
+}
+
+.list-cell:filled {
+    -fx-background-color: #ecf0f1;
+;
+}
