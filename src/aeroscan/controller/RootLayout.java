@@ -106,7 +106,7 @@ public class RootLayout {
 
             // Give the controller access to the main app.
             Scans controller = loader.getController();
-            controller.setMainApp(this.mainApp);
+            controller.setRootLayout(this.rootLayout);
 
         } catch (IOException e) {
             e.printStackTrace();
