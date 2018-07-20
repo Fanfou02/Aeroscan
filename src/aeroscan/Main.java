@@ -22,7 +22,7 @@ public class Main extends Application {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("AeroScan");
         this.primaryStage.setMinHeight(450);
-        this.primaryStage.setMinWidth(650);
+        this.primaryStage.setMinWidth(700);
 
         initRootLayout();
     }
@@ -34,18 +34,23 @@ public class Main extends Application {
         try {
             // Load root layout from fxml file.
             FXMLLoader loader = new FXMLLoader();
+
+            // Give the controller access to the main app.
+            RootLayout controller = new RootLayout(this);
+            loader.setController(controller);
+
             loader.setLocation(Main.class.getResource("view/RootLayout.fxml"));
-            rootLayout = (BorderPane) loader.load();
+            this.rootLayout = (BorderPane) loader.load();
 
 
             // Show the scene containing the root layout.
             Scene scene = new Scene(rootLayout);
             primaryStage.setScene(scene);
-            primaryStage.show();
 
-            // Give the controller access to the main app.
-            RootLayout controller = loader.getController();
-            controller.setMainApp(this);
+
+
+
+            primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -57,6 +62,9 @@ public class Main extends Application {
      */
     public Stage getPrimaryStage() {
         return primaryStage;
+    }
+    public BorderPane getRootLayout() {
+        return rootLayout;
     }
 
     public static void main(String[] args) {

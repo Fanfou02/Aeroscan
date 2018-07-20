@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.jfoenix:jfoenix:8.0.3" level="project" />
+    <orderEntry type="library" name="com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="org.controlsfx:controlsfx:9.0.0" level="project" />
+    <orderEntry type="library" name="com.drewnoakes:metadata-extractor:2.11.0" level="project" />
   </component>
 </module>

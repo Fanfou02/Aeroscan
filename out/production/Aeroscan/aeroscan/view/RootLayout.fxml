@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="rootLayout" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aeroscan.controller.RootLayout">
+<BorderPane fx:id="rootLayout" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
    <left>
       <AnchorPane maxWidth="168.0" minWidth="168.0" prefWidth="168.0" style="-fx-background-color: #ecf0f1;" BorderPane.alignment="CENTER">
          <children>

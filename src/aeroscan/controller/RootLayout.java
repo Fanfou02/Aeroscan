@@ -3,6 +3,7 @@ package aeroscan.controller;
 import aeroscan.Main;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -10,8 +11,10 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class RootLayout {
+public class RootLayout implements Initializable{
 
 
     // Reference to the main application.
@@ -50,8 +53,8 @@ public class RootLayout {
      * The constructor.
      * The constructor is called before the initialize() method.
      */
-    public RootLayout(){
-
+    public RootLayout(Main mainApp){
+        this.mainApp = mainApp;
     }
 
     /**
@@ -59,27 +62,10 @@ public class RootLayout {
      * after the fxml file has been loaded.
      */
     @FXML
-    private void initialize() {
+    public void initialize(URL location, ResourceBundle resources) {
         onScansClicked();
     }
 
-    /**
-     * Is called by the main application to give a reference back to itself.
-     *
-     * @param mainApp
-     */
-    public void setMainApp(Main mainApp) {
-        this.mainApp = mainApp;
-    }
-
-    /**
-     * Is called by the main application to give a reference back to itself.
-     *
-     * @param rootLayout
-     */
-    public void setRootLayout(BorderPane rootLayout) {
-        this.rootLayout = rootLayout;
-    }
 
     @FXML
     private void onScansClicked(){
@@ -99,14 +85,11 @@ public class RootLayout {
         try {
             // Load scans page
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/aeroscan/view/Scans.fxml"));
+            Scans controller = new Scans(mainApp);
+            loader.setController(controller);
             AnchorPane scans = loader.load();
-
             // Set scans page into the center of root layout.
             rootLayout.setCenter(scans);
-
-            // Give the controller access to the main app.
-            Scans controller = loader.getController();
-            controller.setRootLayout(this.rootLayout);
 
         } catch (IOException e) {
             e.printStackTrace();
