@@ -31,12 +31,16 @@ import javafx.scene.layout.*;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Optional;
 
 import java.net.URL;
@@ -164,6 +168,86 @@ public class Aera implements Initializable{
         trainButton.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {
+                try {
+                    // reload page
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource("/aeroscan/view/LoadingScreen.fxml"));
+
+                    LoadingScreen controller = new LoadingScreen("Training in progress");
+                    loader.setController(controller);
+                    AnchorPane aera = loader.load();
+                    // Set scans page into the center of root layout.
+                    mainApp.getRootLayout().setCenter(aera);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+                JSONParser parser = new JSONParser();
+
+                try {
+
+                    Object obj = parser.parse(new FileReader("src/data/" + currentDirectory + "/config.json"));
+
+                    JSONObject jsonObject = (JSONObject) obj;
+                    long epochs = (long) jsonObject.get("Epochs");
+                    double severity = (double) jsonObject.get("Severity");
+                    String algorithm = (String) jsonObject.get("Algorithm");
+
+                    System.out.println(jsonObject);
+
+
+                    switch (algorithm) {
+                        case "KNN":
+                            Process pKNN = Runtime.getRuntime().exec("python src/algorithms/knn.py " + "src/data/" + currentDirectory + "/references" + " " + 1 + " " + epochs + " " + severity);
+                            pKNN.waitFor();
+                            System.out.println("Python : " + pKNN.exitValue());
+                            BufferedReader in = new BufferedReader(new InputStreamReader(pKNN.getInputStream()));
+                            in.lines().forEach(System.out::println);
+                            break;
+                        case "SVM":
+                            Process pSVM = Runtime.getRuntime().exec("python src/algorithms/svm.py " + "src/data/" + currentDirectory + "/references" + " " + 1 + " " + epochs + " " + severity);
+                            pSVM.waitFor();
+                            System.out.println("Python : " + pSVM.exitValue());
+                            BufferedReader in1 = new BufferedReader(new InputStreamReader(pSVM.getInputStream()));
+                            in1.lines().forEach(System.out::println);
+                            break;
+                        case "AE":
+                            Process pAE = Runtime.getRuntime().exec("python src/algorithms/cae.py " + "src/data/" + currentDirectory + "/references" + " " + 1 + " " + epochs + " " + severity);
+                            pAE.waitFor();
+                            System.out.println("Python : " + pAE.exitValue());
+                            BufferedReader in2 = new BufferedReader(new InputStreamReader(pAE.getInputStream()));
+                            in2.lines().forEach(System.out::println);
+
+                            BufferedReader in3 = new BufferedReader(new InputStreamReader(pAE.getErrorStream()));
+                            in3.lines().forEach(System.out::println);
+                            break;
+                    }
+
+
+                } catch (InterruptedException e){
+                    e.printStackTrace();
+                }catch (FileNotFoundException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+
+                // Reload the page once the training is complete
+                try {
+                    // Load scans page
+                    FXMLLoader loader = new FXMLLoader(getClass().getResource("/aeroscan/view/Aera.fxml"));
+
+                    Aera controller = new Aera(currentDirectory, mainApp);
+                    loader.setController(controller);
+                    AnchorPane aera = loader.load();
+                    // Set scans page into the center of root layout.
+                    mainApp.getRootLayout().setCenter(aera);
+
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
 
             }
         });

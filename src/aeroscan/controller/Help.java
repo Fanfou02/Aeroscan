@@ -1,15 +1,9 @@
 package aeroscan.controller;
 
 import aeroscan.Main;
-import aeroscan.model.LoadingScreen;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.text.Text;
-
-import java.io.IOException;
 
 public class Help {
     // Reference to the main application.
@@ -18,8 +12,8 @@ public class Help {
     @FXML
     private AnchorPane rootLayout;
 
-    //@FXML
-    //private TextArea textArea;
+    @FXML
+    private TextArea textArea;
 
     private final String title = "Help";
     private final String body = "Ideas neque illos mea eae. Vi at ad complector id quaecumque consuetudo. Fal praecise rum physicam actiones lus recenseo uno. Ita hac cera meis rari. Du re impulsum ab ex ulterius perspexi. Hic sae admi sex quid veat. Sex prudentiae sae concipitur jam percipimus imaginandi quantumvis indubitati. Firma corpo situm nam totos latum mem. Ei id ferias multis dividi fusius firmae firmum. \\n\" +\n" +
@@ -43,10 +37,9 @@ public class Help {
      */
     @FXML
     private void initialize() {
-        //textArea.setEditable(false);
-        //textArea.setWrapText(true);
-        //textArea.setText(body);
-        LoadingScreen ldScreen = new LoadingScreen(this.rootLayout, "Chargement des images");
+        textArea.setEditable(false);
+        textArea.setWrapText(true);
+        textArea.setText(body);
     }
 
     /**

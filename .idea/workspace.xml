@@ -2,52 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_drewnoakes_metadata_extractor_2_11_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/com_googlecode_json_simple_json_simple_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_controlsfx_controlsfx_9_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/controller/ImageShow.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/controller/Settings.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/css/aera.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/model/LoadingScreen.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/utils/CustomListCellPhotos.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/view/Image.fxml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/view/Settings.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/aeroscan/view/LoadingScreen.fxml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Aeroscan.iml" afterPath="$PROJECT_DIR$/Aeroscan.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/Main.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera$1.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera$2.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera$2.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Aera.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Algorithms.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Algorithms.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Help.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Help.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/RootLayout.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/RootLayout.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans$1.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans$2.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans$2.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/controller/Scans.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/css/menu.css" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/css/menu.css" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Aera.fxml" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Aera.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/model/LoadingScreen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1$1.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1$2.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$2.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$2.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$3.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos$3.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos.class" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/utils/CustomCellPhotos.class" />
       <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Help.fxml" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Help.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/RootLayout.fxml" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/RootLayout.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Scans.fxml" afterPath="$PROJECT_DIR$/out/production/Aeroscan/aeroscan/view/Scans.fxml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 1/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 2/maps/Capture d’écran 2018-03-22 à 11.55.28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 2/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 3/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 4/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/Test Area 5/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/Main.java" afterPath="$PROJECT_DIR$/src/aeroscan/Main.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/jardin/photos/A_0205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/jardin/photos/A_0249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Aeroscan/data/jardin/photos/A_0254.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/aeroscan/controller/Aera.java" afterPath="$PROJECT_DIR$/src/aeroscan/controller/Aera.java" />
       <change beforePath="$PROJECT_DIR$/src/aeroscan/controller/Help.java" afterPath="$PROJECT_DIR$/src/aeroscan/controller/Help.java" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/controller/RootLayout.java" afterPath="$PROJECT_DIR$/src/aeroscan/controller/RootLayout.java" />
       <change beforePath="$PROJECT_DIR$/src/aeroscan/controller/Scans.java" afterPath="$PROJECT_DIR$/src/aeroscan/controller/Scans.java" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/css/menu.css" afterPath="$PROJECT_DIR$/src/aeroscan/css/menu.css" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/view/Aera.fxml" afterPath="$PROJECT_DIR$/src/aeroscan/view/Aera.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/view/RootLayout.fxml" afterPath="$PROJECT_DIR$/src/aeroscan/view/RootLayout.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/aeroscan/view/Scans.fxml" afterPath="$PROJECT_DIR$/src/aeroscan/view/Scans.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 1/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 2/maps/Capture d’écran 2018-03-22 à 11.55.28.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 2/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 3/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 4/maps/map-drone.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/data/Test Area 5/maps/map-drone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/aeroscan/model/LoadingScreen.java" afterPath="$PROJECT_DIR$/src/aeroscan/controller/LoadingScreen.java" />
+      <change beforePath="$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java" afterPath="$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0205.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0236.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0241.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0242.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0248.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0249.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0251.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0253.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0254.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0255.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0256.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0257.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0258.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/photos/A_0259.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0201.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0202.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0204.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0206.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0207.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0245.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/data/jardin/references/IMG_0260.jpg" afterPath="" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,27 +110,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RootLayout.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aeroscan/view/RootLayout.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="12" column="179" lean-forward="false" selection-start-line="12" selection-start-column="179" selection-end-line="12" selection-end-column="179" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Help.fxml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Help.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aeroscan/view/Help.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aera.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Aera.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="199" column="95" lean-forward="false" selection-start-line="199" selection-start-column="95" selection-end-line="199" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#11150#11151#0" expanded="true" />
+                <element signature="e#11188#11189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomCellPhotos.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="160" column="95" lean-forward="false" selection-start-line="160" selection-start-column="95" selection-end-line="160" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="153" column="58" lean-forward="false" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -139,48 +160,24 @@
       <file leaf-file-name="Help.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Help.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+            <state relative-caret-position="44">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightPlanner.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aeroscan/view/FlightPlanner.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="138" lean-forward="false" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="138" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algorithms.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aeroscan/view/Algorithms.fxml">
+      <file leaf-file-name="LoadingScreen.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/aeroscan/view/LoadingScreen.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="134" lean-forward="false" selection-start-line="6" selection-start-column="134" selection-end-line="6" selection-end-column="134" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aera.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aeroscan/view/Aera.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="175" lean-forward="false" selection-start-line="5" selection-start-column="175" selection-end-line="5" selection-end-column="175" />
-              <folding />
+              <caret line="6" column="181" lean-forward="false" selection-start-line="6" selection-start-column="181" selection-end-line="6" selection-end-column="181" />
+              <folding>
+                <marker date="1532101821752" expanded="true" signature="593:606" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -196,10 +193,10 @@
         </entry>
       </file>
       <file leaf-file-name="LoadingScreen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/aeroscan/model/LoadingScreen.java">
+        <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/LoadingScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+            <state relative-caret-position="179">
+              <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -223,11 +220,11 @@
       <file leaf-file-name="Scans.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Scans.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="78">
+              <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="119" selection-end-column="25" />
               <folding>
-                <element signature="e#1319#1320#0" expanded="true" />
-                <element signature="e#1357#1358#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1292#1293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,8 +238,8 @@
         <option value="JavaFXApplication" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -272,7 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="$PROJECT_DIR$/src/view/mainPage.fxml" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -313,15 +309,17 @@
         <option value="$PROJECT_DIR$/src/aeroscan/utils/CustomListCellPhotos.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/view/Settings.fxml" />
         <option value="$PROJECT_DIR$/src/aeroscan/controller/Settings.java" />
-        <option value="$PROJECT_DIR$/src/aeroscan/controller/Aera.java" />
-        <option value="$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/utils/CustomCellScans.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/Main.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/view/Scans.fxml" />
-        <option value="$PROJECT_DIR$/src/aeroscan/controller/Scans.java" />
-        <option value="$PROJECT_DIR$/src/aeroscan/controller/Help.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/model/LoadingScreen.java" />
         <option value="$PROJECT_DIR$/src/aeroscan/view/Help.fxml" />
+        <option value="$PROJECT_DIR$/src/aeroscan/controller/Scans.java" />
+        <option value="$PROJECT_DIR$/src/aeroscan/controller/Help.java" />
+        <option value="$PROJECT_DIR$/src/aeroscan/controller/LoadingScreen.java" />
+        <option value="$PROJECT_DIR$/src/aeroscan/view/LoadingScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/aeroscan/controller/Aera.java" />
+        <option value="$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java" />
       </list>
     </option>
   </component>
@@ -395,13 +393,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="aeroscan" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aeroscan" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aeroscan" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="aeroscan" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aeroscan" type="b2602c69:ProjectViewProjectNode" />
@@ -710,12 +701,12 @@
       <workItem from="1521703141902" duration="16004000" />
       <workItem from="1522234057153" duration="693000" />
       <workItem from="1522679428494" duration="3201000" />
-      <workItem from="1531646192419" duration="49205000" />
+      <workItem from="1531646192419" duration="60835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128842000" />
+    <option name="totallyTimeSpent" value="140472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -777,14 +768,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/RootLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -952,59 +935,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="170" column="64" lean-forward="false" selection-start-line="170" selection-start-column="64" selection-end-line="170" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Aera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="89" column="82" lean-forward="false" selection-start-line="89" selection-start-column="82" selection-end-line="89" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6878#6879#0" expanded="true" />
-            <element signature="e#6916#6917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aeroscan/utils/CustomCellScans.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#6154#6155#0" expanded="false" />
-            <element signature="e#6186#6187#0" expanded="false" />
-            <element signature="e#6216#6217#0" expanded="false" />
-            <element signature="e#6243#6244#0" expanded="false" />
-            <element signature="e#6273#6274#0" expanded="false" />
-            <element signature="e#6300#6301#0" expanded="false" />
-            <element signature="e#6332#6333#0" expanded="false" />
-            <element signature="e#6361#6362#0" expanded="false" />
-            <element signature="e#6390#6391#0" expanded="false" />
-            <element signature="e#6417#6418#0" expanded="false" />
-            <element signature="e#6460#6461#0" expanded="false" />
-            <element signature="e#6495#6496#0" expanded="false" />
-            <element signature="e#6535#6536#0" expanded="false" />
-            <element signature="e#6568#6569#0" expanded="false" />
-            <element signature="e#6609#6610#0" expanded="false" />
-            <element signature="e#6643#6644#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,54 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/view/Scans.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="107" lean-forward="false" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Scans.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/RootLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aeroscan/model/LoadingScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="54" lean-forward="false" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/aeroscan/view/FlightPlanner.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1154,7 +1041,96 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/view/LoadingScreen.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="181" lean-forward="false" selection-start-line="6" selection-start-column="181" selection-end-line="6" selection-end-column="181" />
+          <folding>
+            <marker date="1532101821752" expanded="true" signature="593:606" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/LoadingScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="153" column="58" lean-forward="false" selection-start-line="153" selection-start-column="58" selection-end-line="153" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/view/Scans.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="107" lean-forward="false" selection-start-line="6" selection-start-column="107" selection-end-line="6" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/RootLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="180" column="0" lean-forward="false" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Scans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="105" column="23" lean-forward="false" selection-start-line="105" selection-start-column="23" selection-end-line="119" selection-end-column="25" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/controller/Aera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="199" column="95" lean-forward="false" selection-start-line="199" selection-start-column="95" selection-end-line="199" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11150#11151#0" expanded="true" />
+            <element signature="e#11188#11189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/aeroscan/utils/CustomCellPhotos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="160" column="95" lean-forward="false" selection-start-line="160" selection-start-column="95" selection-end-line="160" selection-end-column="95" />
           <folding />
         </state>
       </provider>

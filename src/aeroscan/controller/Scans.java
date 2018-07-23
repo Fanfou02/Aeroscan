@@ -1,7 +1,6 @@
 package aeroscan.controller;
 
 import aeroscan.Main;
-import aeroscan.model.LoadingScreen;
 import aeroscan.utils.CustomCellScans;
 import aeroscan.utils.CustomListCellScans;
 import com.drew.imaging.ImageMetadataReader;
@@ -24,7 +23,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Comparator;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -58,7 +56,6 @@ public class Scans implements Initializable{
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        LoadingScreen ldScreen = new LoadingScreen(this.rootLayout, "Chargement des images");
         try {
         File directory = new File("src/data");
 
