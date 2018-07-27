@@ -1,10 +1,8 @@
 package aeroscan.controller;
 
 import aeroscan.Main;
-import aeroscan.utils.CustomCellAlgorithms;
-import aeroscan.utils.CustomCellScans;
-import aeroscan.utils.CustomListCellAlgorithms;
-import aeroscan.utils.CustomListCellScans;
+import aeroscan.model.CustomCellAlgorithms;
+import aeroscan.model.CustomListCellAlgorithms;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.image.Image;

@@ -1,47 +1,20 @@
 package aeroscan.controller;
 
 import aeroscan.Main;
-import aeroscan.utils.CustomCellPhotos;
-import aeroscan.utils.CustomListCellPhotos;
 import com.jfoenix.controls.*;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-import javafx.beans.InvalidationListener;
-import javafx.beans.Observable;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.SimpleDoubleProperty;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Group;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.input.ScrollEvent;
-import javafx.scene.input.ZoomEvent;
 import javafx.scene.layout.*;
-import javafx.stage.FileChooser;
-import javafx.stage.Modality;
-import javafx.stage.Stage;
 
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.controlsfx.dialog.ExceptionDialog;
-import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.Comparator;
-import java.util.Optional;
-import org.controlsfx.dialog.LoginDialog;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.scene.control.Alert;

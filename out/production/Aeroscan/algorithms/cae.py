@@ -11,7 +11,7 @@ import sys
 
 assert(len(sys.argv)>2)
 
-PATH = "src/data/" + sys.argv[1]
+PATH = sys.argv[1]
 trainOrPredict = sys.argv[2]
 
 ratioTrainTest = 0.8
@@ -47,9 +47,9 @@ if(trainOrPredict == "1"):
 
 	autoencoder.createModel()
 	autoencoder.train(x_train, x_test, epochs=300, batch_size=1)
-	autoencoder.save('model_autoencoder.h5')
+	autoencoder.save('tmp/model_autoencoder.h5')
 else:
-	autoencoder.load('model_autoencoder.h5')
+	autoencoder.load('tmp/model_autoencoder.h5')
 	img = IP.readImage(PATH).astype(np.float32)
 	img = IP.resizeImage(img, InputShape[:-1])	
 	#normalize

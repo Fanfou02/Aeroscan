@@ -1,8 +1,8 @@
 package aeroscan.controller;
 
 import aeroscan.Main;
-import aeroscan.utils.CustomCellScans;
-import aeroscan.utils.CustomListCellScans;
+import aeroscan.model.CustomCellScans;
+import aeroscan.model.CustomListCellScans;
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.icc.IccDirectory;
